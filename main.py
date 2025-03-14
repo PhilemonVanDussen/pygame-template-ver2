@@ -31,10 +31,10 @@ def main():
     running = True
     while running:
         running = handle_events()
-        screen.fill(config.WHITE) # Use color from config
+        screen.fill(config.GREEN) # Use color from config
         mouse_pos = pygame.mouse.get_pos()
         draw_text(screen, mouse_pos, mouse_pos, 15) # Tells user mouse coordinates
-        
+
 
 
 
